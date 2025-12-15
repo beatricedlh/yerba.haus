@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>yerba.haus | stage 4</title>
+  <link rel="icon" type="image/png" href="images/home.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/stagestyle.css"/>
+</head>
+<body>
+  <script src="js/stagescript.js"></script>
+
+<!-- FRAME 1 -->
+  <div class="frame">
+    <div class="header">
+      <a class="brand" href="index.html" aria-label="Home">yerba.haus</a>
+      <nav class="desk-nav" aria-label="Primary">
+        <a href="stage1.html" aria-label="Stage 1"><img src="images/1.png" alt="1" /></a>
+        <a href="stage2.html" aria-label="Stage 2"><img src="images/2.png" alt="2" /></a>
+        <a href="stage3.html" aria-label="Stage 3"><img src="images/3.png" alt="3" /></a>
+        <a href="stage4.html" aria-label="Stage 4"><img src="images/4.png" alt="4" /></a>
+        <a href="stage5.html" aria-label="Stage 5"><img src="images/5.png" alt="5" /></a>
+        <a href="about.html" aria-label="About"><img src="images/more.png" alt="About" /></a>
+      </nav>
+    </div>
+
+    <main>
+      <div class="kettle">
+        <a href="index.html" class="kettle-label" aria-label="Back to home">
+          <img src="images/mug4.png" alt="Top view of a mug">
+        </a>
+      </div>
+
+      <div class="scroll-down">
+        <a href="#stage-intro" class="scroll-arrow">
+          <img src="images/down.png" alt="Scroll down">
+        </a>
+      </div>
+    </main>
+  </div>
+
+<!-- FRAME 2 -->
+  <section id="stage-intro" class="stage-frame">
+    <div class="stage-frame-inner">
+      <p class="pullquote">
+        When the infusion is ready, the first drink is taken through the bombilla. 
+        This marks the start of drinking and signals that the mate is properly prepared.
+      </p>
+    </div>
+  </section>
+
+<!-- FRAME 3 -->
+<section id="stage-steps" class="stage-steps-frame">
+  <div class="stage-steps-inner">
+    <h2 class="stage-steps-title">stage 4</h2>
+
+    <div class="stage-steps-main">
+      <!-- left arrow -->
+      <button class="step-arrow step-arrow-left" aria-label="Previous step">
+        <img src="images/left.png" alt="">
+      </button>      
+
+      <!-- central area -->
+      <div class="step-stage">
+        <!-- step 1 -->
+        <div class="step step-1 step--active">
+          <div class="step-image-wrap">
+            <img src="images/s4.1.png" alt="Step 1">
+          </div>
+          <p class="step-caption">
+            The first drink is taken through the bombilla, drawing the infusion directly from the gourd. This moment confirms that the mate has been prepared correctly and that the flow through the straw is unobstructed.
+          </p>
+        </div>
+
+        <!-- other steps -->
+        <div class="step step-2">
+          <div class="step-image-wrap">
+            <img src="images/s4.2.png" alt="Step 2">
+          </div>
+          <p class="step-caption">
+            Unlike beverages that are consumed quickly, mate is designed to be drunk slowly over time. Each sip draws from the same leaves, allowing their flavour to change gradually. The act of sipping is therefore part of an extended process and ritual. (Sarreal)
+          </p>
+        </div>
+
+        <div class="step step-3">
+          <div class="step-image-wrap">
+            <img src="images/s4.3.png" alt="Step 3">
+          </div>
+          <p class="step-caption">
+            Yerba mate contains caffeine, theobromine, and polyphenols that affect alertness, metabolism, and mood. These compounds interact with the body differently than coffee, producing stimulation that many drinkers describe as more sustained. The biological effects of mate are central to why it is consumed daily in many regions. (Bae et al.; Gawron-Gzella et al.)
+          </p>
+        </div>
+
+        <div class="step step-4">
+          <div class="step-image-wrap">
+            <img src="images/s4.4.png" alt="Step 4">
+          </div>
+          <p class="step-caption">
+            Yerba mate is rich in polyphenols and antioxidants, which have been linked to anti-inflammatory and cardioprotective effects. Studies have also examined its potential role in supporting metabolism, lipid regulation, and glucose control.
+          </p>
+        </div>
+      </div>
+
+      <!-- right arrow -->
+      <button class="step-arrow step-arrow-right" aria-label="Next step">
+        <img src="images/right.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FRAME 4 -->
+<section class="refs-frame" id="references">
+  <div class="refs-header">
+    <button class="refs-title" aria-expanded="false">
+      <span>references</span>
+    </button>
+
+    <button class="refs-toggle" aria-expanded="false" aria-controls="refs-content">
+      <img src="images/plus.png" class="icon-plus" alt="Show references">
+      <img src="images/minus.png" class="icon-minus" alt="Hide references">
+    </button>
+  </div>
+
+  <div class="refs-content" id="refs-content">
+    <p class="ref-item">
+      Bae, Ji-Yeon, et al. “Yerba Mate (Ilex paraguariensis): A Review of Its Chemical Composition, Functional Properties, and Health Benefits.” <em>Journal of Food Science and Nutrition</em>, 2021.
+    </p>
+    <p class="ref-item">
+      Gawron-Gzella, Anna, Justyna Chanaj-Kaczmarek, and Judyta Cielecka-Piontek. “Yerba Mate—A Long but Current History.” <em>Nutrients</em>, vol. 13, no. 11, 2021, p. 3706.
+    </p>
+    <p class="ref-item">
+      Sarreal, Julia J. S. <em>Yerba Mate: The Drink That Shaped a Nation</em>. University of California Press, 2023.
+    </p>
+  </div>
+</section>
+
+<!-- FRAME 5 -->
+<footer class="footer-frame">
+  <div class="footer-top">
+    <div class="footer-brand-block">
+      <a href="index.html" class="footer-brand">yerba.haus</a>
+      <p class="footer-copy">
+        More than just a drink, mate is a ritual that links people, land, and
+        history. This site invites you to walk through the process step-by-step.
+      </p>
+    </div>
+
+    <!-- icon -->
+    <a href="index.html" class="footer-icon" aria-label="Back to home">
+      <img src="images/home.icon.png" alt="Home">
+    </a>
+  </div>
+
+  <nav class="footer-bottom" aria-label="Footer navigation">
+    <a href="about.html"><span>about</span></a>
+    <a href="mailto:bdovallheureux@ocadu.ca?subject=yerba.haus"><span>contact</span></a>
+    <a href="about.html#terms"><span>terms</span></a>
+    <a href="about.html#credits"><span>credits</span></a>
+
+    <!-- previous arrow -->
+    <a href="stage3.html" class="footer-arrow footer-arrow-left" aria-label="Previous page">
+      <img src="images/left.png" alt="Previous page">
+    </a>
+
+    <!-- next arrow -->
+    <a href="stage5.html" class="footer-arrow footer-arrow-right" aria-label="Next page">
+      <img src="images/right.png" alt="Next page">
+    </a>
+  </nav>
+</footer>
+
+<div class="page-end-spacer"></div>
+
+</body>
+</html>
